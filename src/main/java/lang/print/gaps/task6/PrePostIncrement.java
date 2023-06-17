@@ -11,7 +11,7 @@ public class PrePostIncrement {
         a = ++a;
         int x =   a   + b +   c   + d;
         System.out.println("Expected x is 40, x = " + x);
-        c = ++goc;
+        c = ++c;
         // print the updated value of a, b, c, and d
         System.out.println("The updated value of a = " + a + ", b = " + b + ", c = " + c + " and d = " + d);
 
